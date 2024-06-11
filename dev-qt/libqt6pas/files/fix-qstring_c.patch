@@ -1,0 +1,14 @@
+--- src/qstring_c.cpp
++++ src/qstring_c.cpp
+@@ -1074,7 +1074,7 @@ bool QString_isNull(QStringH handle)
+ {
+     return (bool) ((QString *)handle)->isNull();
+ }
+
+ bool QString_isSimpleText(QStringH handle)
+ {
+-    return (bool) ((QString *)handle)->isSimpleText();
++    return false;  // Placeholder as isSimpleText is not available in newer Qt versions
+ }
+
+ bool QString_isRightToLeft(QStringH handle)

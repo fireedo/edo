@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=GOverlay
+Comment=Graphical overlay for monitoring gaming performance
+Exec=goverlay
+Icon=goverlay
+Terminal=false
+Type=Application
+Categories=Game;Utility;
